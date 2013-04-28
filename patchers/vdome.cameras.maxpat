@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 42.0, 1920.0, 1012.0 ],
+		"rect" : [ 0.0, 44.0, 1920.0, 931.0 ],
 		"bgcolor" : [ 0.13, 0.13, 0.13, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -36,8 +37,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.0, 405.0, 230.0, 20.0 ],
-					"text" : "vdome.camera camera-6 win scene sub6",
+					"patching_rect" : [ 396.0, 405.0, 241.0, 20.0 ],
+					"text" : "vdome.camera camera-6 win-2 scene sub6",
 					"varname" : "vdome.camera[3]"
 				}
 
@@ -92,8 +93,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.5, 379.0, 230.0, 20.0 ],
-					"text" : "vdome.camera camera-5 win scene sub5",
+					"patching_rect" : [ 359.5, 379.0, 241.0, 20.0 ],
+					"text" : "vdome.camera camera-5 win-2 scene sub5",
 					"varname" : "vdome.camera[4]"
 				}
 
@@ -106,8 +107,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 325.0, 353.0, 230.0, 20.0 ],
-					"text" : "vdome.camera camera-4 win scene sub4",
+					"patching_rect" : [ 325.0, 353.0, 241.0, 20.0 ],
+					"text" : "vdome.camera camera-4 win-2 scene sub4",
 					"varname" : "vdome.camera[5]"
 				}
 
@@ -120,8 +121,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 390.0, 230.0, 20.0 ],
-					"text" : "vdome.camera camera-3 win scene sub3",
+					"patching_rect" : [ 97.0, 390.0, 241.0, 20.0 ],
+					"text" : "vdome.camera camera-3 win-1 scene sub3",
 					"varname" : "vdome.camera[2]"
 				}
 
@@ -204,8 +205,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.5, 364.0, 230.0, 20.0 ],
-					"text" : "vdome.camera camera-2 win scene sub2",
+					"patching_rect" : [ 60.5, 364.0, 241.0, 20.0 ],
+					"text" : "vdome.camera camera-2 win-1 scene sub2",
 					"varname" : "vdome.camera[1]"
 				}
 
@@ -240,8 +241,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 338.0, 230.0, 20.0 ],
-					"text" : "vdome.camera camera-1 win scene sub1",
+					"patching_rect" : [ 26.0, 338.0, 241.0, 20.0 ],
+					"text" : "vdome.camera camera-1 win-1 scene sub1",
 					"varname" : "vdome.camera"
 				}
 
@@ -485,58 +486,65 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "vdome.camera.maxpat",
-				"bootpath" : "\\Users\\IAIA\\Desktop\\20130101-vdome-pc\\patchers",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pol2cart.js",
-				"bootpath" : "\\Users\\IAIA\\Desktop\\20130101-vdome-pc\\code",
-				"patcherrelativepath" : "..\\code",
+				"bootpath" : "/Users/Charles/Code/vdome-max/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.reposition.maxpat",
-				"bootpath" : "\\Users\\IAIA\\Desktop\\20130101-vdome-pc\\patchers",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.reposlider.maxpat",
-				"bootpath" : "\\Users\\IAIA\\Desktop\\20130101-vdome-pc\\patchers",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.color.maxpat",
-				"bootpath" : "\\Users\\IAIA\\Desktop\\20130101-vdome-pc\\patchers",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.colorgrid.maxpat",
-				"bootpath" : "\\Users\\IAIA\\Desktop\\20130101-vdome-pc\\patchers",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "graph.js",
-				"bootpath" : "\\Users\\IAIA\\Desktop\\20130101-vdome-pc\\code",
-				"patcherrelativepath" : "..\\code",
+				"bootpath" : "/Users/Charles/Code/vdome-max/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "list2matrix.js",
-				"bootpath" : "\\Users\\IAIA\\Desktop\\20130101-vdome-pc\\code",
-				"patcherrelativepath" : "..\\code",
+				"bootpath" : "/Users/Charles/Code/vdome-max/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vdome.keysliders.maxpat",
+				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ]
