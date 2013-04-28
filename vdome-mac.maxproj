@@ -2,7 +2,7 @@
 	"name" : "vdome-mac",
 	"version" : 1,
 	"creationdate" : -844967833,
-	"modificationdate" : -844967789,
+	"modificationdate" : -844957738,
 	"viewrect" : [ 25.0, 69.0, 362.0, 846.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,11 +14,6 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"vdome-win.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"vdome.wordtoggle.maxpat" : 			{
@@ -90,6 +85,16 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"vdome-win.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"vdome.syphon.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -129,6 +134,10 @@
 				"kind" : "json",
 				"local" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 ,
