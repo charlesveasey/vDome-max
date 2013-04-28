@@ -1,19 +1,24 @@
 {
-	"name" : "vdome",
+	"name" : "vdome-mac",
 	"version" : 1,
-	"creationdate" : -876432004,
-	"modificationdate" : -853429882,
-	"viewrect" : [ 388.0, 225.0, 303.0, 655.0 ],
+	"creationdate" : -844967833,
+	"modificationdate" : -844967789,
+	"viewrect" : [ 25.0, 69.0, 362.0, 846.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
-	"autolocalize" : 1,
+	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"vdome.maxpat" : 			{
+			"vdome-mac.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"vdome-win.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"vdome.wordtoggle.maxpat" : 			{
@@ -115,13 +120,13 @@
 		}
 ,
 		"data" : 		{
-			"settings.json" : 			{
-				"kind" : "json",
+			"fishtexture.obj" : 			{
+				"kind" : "model",
 				"local" : 1
 			}
 ,
-			"fishtexture.obj" : 			{
-				"kind" : "model",
+			"settings.json" : 			{
+				"kind" : "json",
 				"local" : 1
 			}
 
