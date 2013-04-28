@@ -2,7 +2,7 @@
 	"name" : "vdome-win",
 	"version" : 1,
 	"creationdate" : -844968259,
-	"modificationdate" : -844968096,
+	"modificationdate" : -844959160,
 	"viewrect" : [ 25.0, 69.0, 328.0, 743.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -11,11 +11,6 @@
 	"contents" : 	{
 		"patchers" : 		{
 			"vdome.camera.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"vdome-win.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -45,7 +40,22 @@
 				"local" : 1
 			}
 ,
-			"vdome.cameras.maxpat" : 			{
+			"vdome-win.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"vdome.wordtoggle.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"vdome.scheduler.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"vdome.socket.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -70,22 +80,7 @@
 				"local" : 1
 			}
 ,
-			"vdome.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"vdome.wordtoggle.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"vdome.scheduler.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"vdome.socket.maxpat" : 			{
+			"vdome.cameras.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -131,15 +126,14 @@
 
 		}
 ,
+		"externals" : 		{
+
+		}
+,
 		"other" : 		{
 			"" : 			{
 				"kind" : "folder",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/Charles/Dropbox/IAIA-Dome/Projects/vDome/max/20130119-vdome-pc/patchers",
-					"projectrelativepath" : "../20130119-vdome-pc/patchers"
-				}
-
+				"local" : 1
 			}
 
 		}
