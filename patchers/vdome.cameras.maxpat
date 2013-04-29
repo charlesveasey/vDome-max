@@ -37,8 +37,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.0, 405.0, 241.0, 20.0 ],
-					"text" : "vdome.camera camera-6 win-2 scene sub6",
+					"patching_rect" : [ 396.0, 405.0, 251.0, 20.0 ],
+					"text" : "vdome.camera camera-6 win-2 scene-2 sub6",
 					"varname" : "vdome.camera[3]"
 				}
 
@@ -93,8 +93,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.5, 379.0, 241.0, 20.0 ],
-					"text" : "vdome.camera camera-5 win-2 scene sub5",
+					"patching_rect" : [ 359.5, 379.0, 251.0, 20.0 ],
+					"text" : "vdome.camera camera-5 win-2 scene-2 sub5",
 					"varname" : "vdome.camera[4]"
 				}
 
@@ -107,8 +107,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 325.0, 353.0, 241.0, 20.0 ],
-					"text" : "vdome.camera camera-4 win-2 scene sub4",
+					"patching_rect" : [ 325.0, 353.0, 251.0, 20.0 ],
+					"text" : "vdome.camera camera-4 win-2 scene-2 sub4",
 					"varname" : "vdome.camera[5]"
 				}
 
@@ -121,8 +121,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 390.0, 241.0, 20.0 ],
-					"text" : "vdome.camera camera-3 win-1 scene sub3",
+					"patching_rect" : [ 97.0, 390.0, 251.0, 20.0 ],
+					"text" : "vdome.camera camera-3 win-1 scene-1 sub3",
 					"varname" : "vdome.camera[2]"
 				}
 
@@ -205,8 +205,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.5, 364.0, 241.0, 20.0 ],
-					"text" : "vdome.camera camera-2 win-1 scene sub2",
+					"patching_rect" : [ 60.5, 364.0, 251.0, 20.0 ],
+					"text" : "vdome.camera camera-2 win-1 scene-1 sub2",
 					"varname" : "vdome.camera[1]"
 				}
 
@@ -241,8 +241,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 338.0, 241.0, 20.0 ],
-					"text" : "vdome.camera camera-1 win-1 scene sub1",
+					"patching_rect" : [ 26.0, 338.0, 251.0, 20.0 ],
+					"text" : "vdome.camera camera-1 win-1 scene-1 sub1",
 					"varname" : "vdome.camera"
 				}
 
@@ -499,20 +499,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "vdome.reposition.maxpat",
-				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vdome.reposlider.maxpat",
-				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "vdome.color.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
 				"patcherrelativepath" : ".",
@@ -538,6 +524,20 @@
 				"bootpath" : "/Users/Charles/Code/vdome-max/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vdome.reposition.maxpat",
+				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vdome.reposlider.maxpat",
+				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
