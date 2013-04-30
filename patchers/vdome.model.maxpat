@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 388.0, 695.0, 543.0, 155.0 ],
+		"rect" : [ 388.0, 695.0, 547.0, 126.0 ],
 		"bgcolor" : [ 0.13, 0.13, 0.13, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -208,7 +208,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u308018410"
+					"varname" : "u462007720"
 				}
 
 			}
