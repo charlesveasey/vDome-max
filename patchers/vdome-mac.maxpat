@@ -3,9 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 1,
-			"revision" : 2,
-			"architecture" : "x86"
+			"minor" : 0,
+			"revision" : 8
 		}
 ,
 		"openrect" : [ 100.0, 100.0, 758.0, 353.0 ],
@@ -28,6 +27,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"globalpatchername" : "u254001158",
 		"title" : "vDome",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -352,9 +352,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 635.0, 151.0, 858.0, 741.0 ],
@@ -1257,7 +1256,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-90",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 467.5, 165.0, 65.0, 20.0 ],
@@ -1425,13 +1424,13 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 261.0, 210.0, 321.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 403, 73, 1418, 941 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 766, 44, 1220, 302 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage @greedy 1 @fileusagemode 1 @savemode 2",
-					"varname" : "u503013726"
+					"varname" : "u015003212"
 				}
 
 			}
@@ -1467,9 +1466,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 1598.0, 936.0 ],
@@ -1595,7 +1593,7 @@
 									"patching_rect" : [ 813.0, 230.625, 104.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 1241.0, 216.0, 89.0, 34.0 ],
+									"presentation_rect" : [ 1241.0, 216.0, 89.0, 33.0 ],
 									"text" : "pak 0. 0. 0. 0.979"
 								}
 
@@ -1758,7 +1756,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 461.0, 283.625, 223.0, 32.0 ],
+									"patching_rect" : [ 461.0, 283.625, 223.0, 31.0 ],
 									"text" : "arrowcolor 0.872549 0.872549 0.872549 0.979"
 								}
 
@@ -1807,7 +1805,7 @@
 									"patching_rect" : [ 314.0, 208.625, 104.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 1422.0, 744.0, 89.0, 34.0 ],
+									"presentation_rect" : [ 1422.0, 744.0, 89.0, 33.0 ],
 									"text" : "pak 0. 0. 0. 0.979"
 								}
 
@@ -2541,7 +2539,7 @@
 					"patching_rect" : [ 256.0, 797.0, 54.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.5, 300.25, 33.0, 27.0 ],
-					"text" : "on",
+					"text" : "off",
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
 				}
 
@@ -3822,77 +3820,77 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-5::obj-5::obj-49" : [ "toggle[1]", "toggle", 0 ],
-			"obj-12::obj-4::obj-5::obj-49" : [ "toggle", "toggle", 0 ]
+			"obj-12::obj-4::obj-5::obj-49" : [ "toggle", "toggle", 0 ],
+			"obj-12::obj-5::obj-5::obj-49" : [ "toggle[1]", "toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "vdome.wordtoggle.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.scheduler.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.socket.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.configure.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.window.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.displays.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.syphon.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.model.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.cameras.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.camera.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3904,30 +3902,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "vdome.reposition.maxpat",
-				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vdome.reposlider.maxpat",
-				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "vdome.color.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.colorgrid.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3946,9 +3930,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "vdome.reposition.maxpat",
+				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vdome.reposlider.maxpat",
+				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "vdome.keysliders.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}

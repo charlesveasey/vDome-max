@@ -2,7 +2,7 @@
 	"name" : "vdome-mac",
 	"version" : 1,
 	"creationdate" : -844967833,
-	"modificationdate" : -844934778,
+	"modificationdate" : -844846460,
 	"viewrect" : [ 25.0, 69.0, 362.0, 846.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,16 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"test.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Charles/Code/vdome-max/patchers/test.maxpat",
+					"projectrelativepath" : "../vdome-max/patchers/test.maxpat"
+				}
+
 			}
 ,
 			"vdome.wordtoggle.maxpat" : 			{
@@ -66,22 +76,22 @@
 				"local" : 1
 			}
 ,
-			"vdome.reposition.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"vdome.reposlider.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"vdome.color.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"vdome.colorgrid.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"vdome.reposition.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"vdome.reposlider.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -110,6 +120,16 @@
 			"pol2cart.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
+			}
+,
+			"router.js" : 			{
+				"kind" : "javascript",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Charles/Code/vdome-max/code/router.js",
+					"projectrelativepath" : "../vdome-max/code/router.js"
+				}
+
 			}
 ,
 			"graph.js" : 			{

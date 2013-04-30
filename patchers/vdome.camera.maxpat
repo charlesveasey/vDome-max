@@ -3,12 +3,11 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 1,
-			"revision" : 2,
-			"architecture" : "x86"
+			"minor" : 0,
+			"revision" : 8
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1920.0, 957.0 ],
+		"rect" : [ 292.0, 293.0, 933.0, 273.0 ],
 		"openrect" : [ 0.0, 0.0, 933.0, 273.0 ],
 		"bgcolor" : [ 0.13, 0.13, 0.13, 1.0 ],
 		"bglocked" : 0,
@@ -2105,7 +2104,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u880013447"
+					"varname" : "u429006690"
 				}
 
 			}
@@ -3344,14 +3343,14 @@
 , 			{
 				"name" : "vdome.color.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.colorgrid.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3372,21 +3371,21 @@
 , 			{
 				"name" : "vdome.reposition.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.reposlider.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.keysliders.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
