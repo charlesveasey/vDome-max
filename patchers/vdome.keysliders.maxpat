@@ -7,8 +7,8 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 602.0, 87.0, 1252.0, 940.0 ],
-		"bgcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+		"rect" : [ 724.0, 223.0, 242.0, 314.0 ],
+		"bgcolor" : [ 0.22, 0.22, 0.22, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -235,7 +235,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1115.0, 330.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.0, 280.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 124.0, 277.0, 100.0, 20.0 ],
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"varname" : "key-scalar[3]"
 				}
@@ -250,7 +250,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1033.0, 409.0, 61.0, 20.0 ],
+					"patching_rect" : [ 1033.0, 409.0, 61.0, 19.0 ],
 					"text" : "pack 0. 0."
 				}
 
@@ -267,7 +267,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1033.0, 181.0, 113.0, 111.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.0, 176.0, 100.0, 100.0 ],
+					"presentation_rect" : [ 124.0, 173.0, 100.0, 100.0 ],
 					"rightvalue" : 100,
 					"topvalue" : -100,
 					"varname" : "key-slider[3]"
@@ -426,7 +426,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 865.0, 337.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 280.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 18.0, 277.0, 100.0, 20.0 ],
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"varname" : "key-scalar[2]"
 				}
@@ -441,7 +441,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 783.0, 409.0, 61.0, 20.0 ],
+					"patching_rect" : [ 783.0, 409.0, 61.0, 19.0 ],
 					"text" : "pack 0. 0."
 				}
 
@@ -458,7 +458,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 783.0, 188.0, 113.0, 111.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 176.0, 100.0, 100.0 ],
+					"presentation_rect" : [ 18.0, 173.0, 100.0, 100.0 ],
 					"rightvalue" : 100,
 					"topvalue" : -100,
 					"varname" : "key-slider[2]"
@@ -617,7 +617,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 589.0, 366.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.0, 148.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 124.0, 145.0, 100.0, 20.0 ],
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"varname" : "key-scalar[1]"
 				}
@@ -632,7 +632,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 516.0, 423.0, 61.0, 20.0 ],
+					"patching_rect" : [ 516.0, 423.0, 61.0, 19.0 ],
 					"text" : "pack 0. 0."
 				}
 
@@ -649,7 +649,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 516.0, 188.0, 113.0, 111.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.0, 44.0, 100.0, 100.0 ],
+					"presentation_rect" : [ 124.0, 41.0, 100.0, 100.0 ],
 					"rightvalue" : 100,
 					"topvalue" : -100,
 					"varname" : "key-slider[1]"
@@ -727,7 +727,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 62.5, 299.0, 72.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.0, 19.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 124.0, 16.0, 100.0, 20.0 ],
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
 				}
 
@@ -743,7 +743,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 241.0, 40.0, 37.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 19.0, 37.0, 18.0 ],
+					"presentation_rect" : [ 81.0, 16.0, 37.0, 18.0 ],
 					"text" : "reset"
 				}
 
@@ -795,7 +795,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u430004883"
+					"varname" : "u520002993"
 				}
 
 			}
@@ -898,7 +898,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 324.0, 386.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 148.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 18.0, 145.0, 100.0, 20.0 ],
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"varname" : "key-scalar"
 				}
@@ -913,7 +913,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.0, 429.0, 61.0, 20.0 ],
+					"patching_rect" : [ 241.0, 429.0, 61.0, 19.0 ],
 					"text" : "pack 0. 0."
 				}
 
@@ -930,7 +930,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 241.0, 188.0, 113.0, 111.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 44.0, 100.0, 100.0 ],
+					"presentation_rect" : [ 18.0, 41.0, 100.0, 100.0 ],
 					"rightvalue" : 100,
 					"topvalue" : -100,
 					"varname" : "key-slider"
