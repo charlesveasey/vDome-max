@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 292.0, 293.0, 933.0, 273.0 ],
+		"rect" : [ 0.0, 44.0, 933.0, 273.0 ],
 		"openrect" : [ 0.0, 0.0, 933.0, 273.0 ],
 		"bgcolor" : [ 0.13, 0.13, 0.13, 1.0 ],
 		"bglocked" : 0,
@@ -29,9 +29,23 @@
 		"digest" : "",
 		"tags" : "",
 		"showontab" : 0,
-		"globalpatchername" : "window[3][4][6][6][6][6][6][6][6][6][6][6][6][1][6][6][1][6]",
+		"globalpatchername" : "#1",
 		"title" : "#1",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 546.0, 607.0, 89.0, 20.0 ],
+					"text" : "pattrmarker #1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
@@ -467,7 +481,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 681.5, 138.0, 56.0, 21.0 ],
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"varname" : "offset-y[1]"
+					"varname" : "offset-y"
 				}
 
 			}
@@ -488,7 +502,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 618.5, 139.0, 57.0, 21.0 ],
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"varname" : "offset-x[1]"
+					"varname" : "offset-x"
 				}
 
 			}
@@ -2085,8 +2099,8 @@
 						"lower-right-x" : [ 1.0 ],
 						"lower-right-y" : [ 1.0 ],
 						"near-clip" : [ 1.0 ],
-						"offset-x[1]" : [ 0.0 ],
-						"offset-y[1]" : [ 0.0 ],
+						"offset-x" : [ 0.0 ],
+						"offset-y" : [ 0.0 ],
 						"pos-rotate-link" : [ 1 ],
 						"rotate" : [ 0.0 ],
 						"rotate-x" : [ 0.0 ],
@@ -2104,7 +2118,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u429006690"
+					"varname" : "u794003716"
 				}
 
 			}
@@ -2567,6 +2581,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-134", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-139", 0 ]
 				}
 
 			}
