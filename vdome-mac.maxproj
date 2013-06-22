@@ -2,8 +2,8 @@
 	"name" : "vdome-mac",
 	"version" : 1,
 	"creationdate" : -844967833,
-	"modificationdate" : -844502522,
-	"viewrect" : [ 62.0, 105.0, 362.0, 846.0 ],
+	"modificationdate" : -840533686,
+	"viewrect" : [ 23.0, 70.0, 362.0, 846.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -95,8 +95,8 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Users/Charles/Code/vdome-max/patchers/vdome.label.maxpat",
-					"projectrelativepath" : "../vdome-max/patchers/vdome.label.maxpat"
+					"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+					"projectrelativepath" : "./patchers"
 				}
 
 			}
@@ -105,25 +105,35 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Users/Charles/Code/vdome-max/patchers/vdome.global.maxpat",
-					"projectrelativepath" : "../vdome-max/patchers/vdome.global.maxpat"
+					"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+					"projectrelativepath" : "./patchers"
 				}
 
 			}
 ,
 			"vdome.mouse.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"vdome-win.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Users/Charles/Code/vdome-max/patchers/vdome-win.maxpat",
-					"projectrelativepath" : "../vdome-max/patchers/vdome-win.maxpat"
+					"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
+					"projectrelativepath" : "./patchers"
 				}
 
+			}
+,
+			"vdome.mask.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
@@ -169,6 +179,10 @@
 				"kind" : "json",
 				"local" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 ,
