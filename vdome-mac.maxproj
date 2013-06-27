@@ -2,8 +2,8 @@
 	"name" : "vdome-mac",
 	"version" : 1,
 	"creationdate" : -844967833,
-	"modificationdate" : -840533686,
-	"viewrect" : [ 23.0, 70.0, 362.0, 846.0 ],
+	"modificationdate" : -839925088,
+	"viewrect" : [ 23.0, 70.0, 242.0, 846.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -91,6 +91,11 @@
 				"local" : 1
 			}
 ,
+			"vdome.mask.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"vdome.label.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
@@ -129,11 +134,6 @@
 					"projectrelativepath" : "./patchers"
 				}
 
-			}
-,
-			"vdome.mask.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 
 		}

@@ -1211,7 +1211,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 110.5, 120.0, 29.0 ],
+					"patching_rect" : [ 34.0, 110.5, 81.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 18.5, 17.0, 74.0, 29.0 ],
 					"text" : "mask",
@@ -1226,7 +1226,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 738.830078, 25.0, 25.0 ]
+					"patching_rect" : [ 34.0, 806.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -1252,7 +1252,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 34.0, 686.830078, 187.0, 19.0 ],
+					"patching_rect" : [ 34.0, 754.0, 187.0, 19.0 ],
 					"text" : "jit.gl.slab #3 @file cc.alphaglue.jxs"
 				}
 
@@ -1941,7 +1941,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 206.0, 48.0, 48.0 ],
+					"patching_rect" : [ 13.5, 78.0, 122.0, 138.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 6.5, 538.0, 305.5 ],
 					"rounded" : 10
