@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1680.0, 976.0 ],
+		"rect" : [ 25.0, 69.0, 1541.0, 744.0 ],
 		"bgcolor" : [ 0.13, 0.13, 0.13, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -31,6 +32,130 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1196.0, 104.0, 79.0, 20.0 ],
+					"text" : "loadmess #2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1196.0, 132.0, 104.0, 20.0 ],
+					"text" : "sprintf set ren-%s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-49",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1196.0, 164.0, 48.0, 20.0 ],
+					"text" : "receive"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1386.0, 370.0, 141.0, 20.0 ],
+					"text" : "sprintf send ren-data-%s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1386.0, 344.0, 79.0, 20.0 ],
+					"text" : "loadmess #2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1386.0, 396.0, 51.0, 20.0 ],
+					"text" : "forward"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 478.5, 338.0, 143.0, 20.0 ],
+					"text" : "sprintf send win-data-%s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 478.5, 312.0, 79.0, 20.0 ],
+					"text" : "loadmess #2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 478.5, 364.0, 51.0, 20.0 ],
+					"text" : "forward"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-38",
 					"maxclass" : "newobj",
@@ -51,7 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 825.0, 345.0, 24.0, 20.0 ],
+					"patching_rect" : [ 973.0, 262.0, 24.0, 20.0 ],
 					"text" : "t 1"
 				}
 
@@ -79,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 825.0, 291.0, 79.0, 20.0 ],
+					"patching_rect" : [ 973.0, 208.0, 79.0, 20.0 ],
 					"text" : "loadmess #2"
 				}
 
@@ -93,7 +218,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 825.0, 318.0, 59.0, 20.0 ],
+					"patching_rect" : [ 973.0, 235.0, 59.0, 20.0 ],
 					"text" : "sel win-1"
 				}
 
@@ -107,7 +232,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.5, 460.0, 64.0, 18.0 ],
+					"patching_rect" : [ 173.5, 497.0, 64.0, 18.0 ],
 					"text" : "texture #4"
 				}
 
@@ -121,7 +246,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 173.5, 434.0, 38.0, 21.0 ],
+					"patching_rect" : [ 173.5, 471.0, 38.0, 21.0 ],
 					"text" : "sel 0"
 				}
 
@@ -135,7 +260,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.5, 408.0, 80.0, 21.0 ],
+					"patching_rect" : [ 173.5, 445.0, 80.0, 21.0 ],
 					"text" : "r syphon-on"
 				}
 
@@ -148,7 +273,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.5, 460.0, 105.0, 20.0 ],
+					"patching_rect" : [ 49.5, 497.0, 105.0, 20.0 ],
 					"text" : "vdome.syphon #3"
 				}
 
@@ -162,7 +287,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 49.5, 494.0, 77.0, 20.0 ],
+					"patching_rect" : [ 49.5, 531.0, 77.0, 20.0 ],
 					"text" : "r syphon-out"
 				}
 
@@ -176,7 +301,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 286.0, 419.0, 60.0, 20.0 ],
+					"patching_rect" : [ 286.0, 456.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -190,7 +315,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.0, 460.0, 113.0, 18.0 ],
+					"patching_rect" : [ 286.0, 497.0, 113.0, 18.0 ],
 					"text" : "read fishtexture.obj"
 				}
 
@@ -260,7 +385,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1159.0, 443.0, 91.0, 20.0 ],
+					"patching_rect" : [ 1159.0, 480.0, 91.0, 20.0 ],
 					"text" : "r global-texture"
 				}
 
@@ -274,7 +399,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1078.5, 443.0, 73.0, 20.0 ],
+					"patching_rect" : [ 1078.5, 480.0, 73.0, 20.0 ],
 					"text" : "r socket-out"
 				}
 
@@ -288,7 +413,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 988.0, 520.0, 254.0, 20.0 ],
+					"patching_rect" : [ 988.0, 557.0, 254.0, 20.0 ],
 					"text" : "jit.gl.texture #3 @colormode uyvy @name #4 "
 				}
 
@@ -302,7 +427,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 988.0, 443.0, 69.0, 20.0 ],
+					"patching_rect" : [ 988.0, 480.0, 69.0, 20.0 ],
 					"text" : "r media-out"
 				}
 
@@ -316,7 +441,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 531.0, 471.0, 87.0, 20.0 ],
+					"patching_rect" : [ 531.0, 508.0, 87.0, 20.0 ],
 					"text" : "r global-model"
 				}
 
@@ -330,7 +455,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 286.0, 538.0, 405.0, 20.0 ],
+					"patching_rect" : [ 286.0, 575.0, 405.0, 20.0 ],
 					"text" : "jit.gl.model #3 @normalize 0  @rotatexyz 0 0  0 @texture #4 @cull_face 1"
 				}
 
@@ -557,7 +682,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u994008584"
+					"varname" : "u245001373"
 				}
 
 			}
@@ -845,11 +970,10 @@
 					"fontsize" : 13.0,
 					"frgb" : 0.0,
 					"id" : "obj-4",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 988.0, 104.0, 46.0, 36.0 ],
+					"patching_rect" : [ 988.0, 104.0, 64.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 673.0, 68.0, 55.0, 21.0 ],
 					"text" : "doubleb",
@@ -923,8 +1047,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1105,6 +1230,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1276,6 +1419,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1303,6 +1455,42 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1316,6 +1504,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-49", 0 ]
 				}
 
 			}
@@ -1480,20 +1686,16 @@
 		"dependency_cache" : [ 			{
 				"name" : "vdome.displays.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vdome.syphon.maxpat",
 				"bootpath" : "/Users/Charles/Code/vdome-max/patchers",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.gl.syphonclient.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
