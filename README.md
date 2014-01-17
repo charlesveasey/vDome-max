@@ -1,6 +1,8 @@
 vdome-max
 =========
 
+NOTE: This repository is no longer maintained. See: https://github.com/charlesveasey/vdome 
+
 Multi-channel projection software designed for dome projection. Programmed by Charles Veasey for the Institute of Indian American Arts (IAIA) with help from Ethan Bach, ARTS Lab, and Paul Bourke.
 
 This application provides real-time distortion and color correction for multi-channel projection systems. It allows for virtual projection surfaces to be imported as 3D model files and cameras to be placed within the scene, recreating the physical projection environment.
