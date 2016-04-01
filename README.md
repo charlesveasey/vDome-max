@@ -15,7 +15,7 @@ vDome was written with the Max + Jitter framework and can be fully integrated wi
 
 Performance is significantly better on OSX 10.6.x.
 
-IAIA runs vDome in it's 2K fulldome theatre using a 12 core Mac Pro (2 x 2.66 GHz 6-Core Interl Xeon) with two Quadro 4000 video cards. 
+IAIA runs vDome in it's 2K fulldome theatre using a 12 core Mac Pro (2 x 2.66 GHz 6-Core Intel Xeon) with two Quadro 4000 video cards. 
 
 Multiple graphic cards on a Mac requires special consideration: 
 1. Split the projectors evenly on the number of graphic cards you have. 
